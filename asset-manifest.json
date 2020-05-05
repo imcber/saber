@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/saber/static/css/main.eb21461f.chunk.css",
+    "main.js": "/saber/static/js/main.3e22766e.chunk.js",
+    "main.js.map": "/saber/static/js/main.3e22766e.chunk.js.map",
+    "runtime-main.js": "/saber/static/js/runtime-main.c631fd5a.js",
+    "runtime-main.js.map": "/saber/static/js/runtime-main.c631fd5a.js.map",
+    "static/js/2.706dd2a5.chunk.js": "/saber/static/js/2.706dd2a5.chunk.js",
+    "static/js/2.706dd2a5.chunk.js.map": "/saber/static/js/2.706dd2a5.chunk.js.map",
+    "index.html": "/saber/index.html",
+    "precache-manifest.caaf5288f0c29218868b6f07bed8fc3d.js": "/saber/precache-manifest.caaf5288f0c29218868b6f07bed8fc3d.js",
+    "service-worker.js": "/saber/service-worker.js",
+    "static/css/main.eb21461f.chunk.css.map": "/saber/static/css/main.eb21461f.chunk.css.map",
+    "static/js/2.706dd2a5.chunk.js.LICENSE.txt": "/saber/static/js/2.706dd2a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c631fd5a.js",
+    "static/js/2.706dd2a5.chunk.js",
+    "static/css/main.eb21461f.chunk.css",
+    "static/js/main.3e22766e.chunk.js"
+  ]
+}
