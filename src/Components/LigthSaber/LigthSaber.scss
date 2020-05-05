@@ -10,16 +10,6 @@ body {
   background: #000;
 }
 
-.container {
-  margin: 0px 0 0 150px;
-  font-family: Roboto;
-  color: #dedede;
-  text-shadow: 0px 1px 1px #000;
-  display: flex;
-  align-items: center;
-  height: 100vh;
-}
-
 .saber-container {
   width: 79px;
   height: 345px;
@@ -365,12 +355,36 @@ body {
   animation: flicker 0.3s ease infinite;
 }
 
-.saber-container {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
+@media (max-width: 1200px) {
+  .container {
+    font-family: Roboto;
+    color: #dedede;
+    text-shadow: 0px 1px 1px #000;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .saber-container {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  .container {
+    margin: 0px 0 0 150px;
+    font-family: Roboto;
+    color: #dedede;
+    text-shadow: 0px 1px 1px #000;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
 }
 
 @-webkit-keyframes ligthsaber-off {
